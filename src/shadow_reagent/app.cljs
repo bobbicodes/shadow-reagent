@@ -1,12 +1,13 @@
 (ns shadow-reagent.app
-  (:require [reagent.core :as r]))
+  (:require [reagent.core :as r]
+            [reagent.dom :as rdom]))
 
 (defn app []
   [:div#app
    [:h1 "shadow-cljs reagent template"]])
 
 (defn render []
-  (r/render [app]
+  (rdom/render [app]
             (.getElementById js/document "root")))
 
 (defn ^:dev/after-load start []
