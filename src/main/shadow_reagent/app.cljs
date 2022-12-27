@@ -1,10 +1,6 @@
 (ns shadow-reagent.app
   (:require [reagent.dom :as rdom]))
 
-(defn square-root
-  [x]
-  (.sqrt js/Math x))
-
 (defn app []
   [:div#app
    [:h1 "shadow-cljs reagent template"]])
