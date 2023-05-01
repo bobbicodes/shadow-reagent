@@ -1,14 +1,19 @@
 ; This is the Calva evaluation results output window.
-; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
 ;   when connected to a REPL session.
 ; Please see https://calva.io/output/ for more info.
 ; Happy coding! ♥️
 
 ; Jacking in...
-; Starting Jack-in Terminal: npx shadow-cljs -d cider/cider-nrepl:0.26.0 watch :app
-; Hooking up nREPL sessions...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\porko\Documents\GitHub\shadow-reagent & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
+; Using host:port localhost:52336 ...
+; Hooking up nREPL sessions ...
 ; Connected session: clj
-; TIPS: 
+; TIPS:
 ;   - You can edit the contents here. Use it as a REPL if you like.
 ;   - `alt+enter` evaluates the current top level form.
 ;   - `ctrl+enter` evaluates the current form.
@@ -25,26 +30,359 @@ clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
 cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\porko\Documents\GitHub\shadow-reagent & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
+; Using host:port localhost:52982 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Failed starting cljs repl for build: :app. Is the build running and connected?
+   See the Output channel "Calva Connection Log" for any hints on what went wrong.
+; Jack-in done.
+clj꞉shadow.user꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\porko\Documents\GitHub\shadow-reagent & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
+; Using host:port localhost:53459 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\porko\Documents\GitHub\shadow-reagent & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
+; Using host:port localhost:54000 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
 nil
-cljs꞉test.shadow-reagent.app-test꞉> 
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
 nil
-; ------ WARNING - :undeclared-var -----------------------------------------------
-;  Resource: <eval>:1:10
- Use of undeclared Var test.shadow-reagent.app-test/square-root-test
---------------------------------------------------------------------------------
-
-cljs꞉test.shadow-reagent.app-test꞉> 
+clj꞉shadow-reagent.app꞉> 
 nil
-cljs꞉shadow-reagent.app-test꞉> 
-#'shadow-reagent.app-test/square-root-test
-cljs꞉shadow-reagent.app-test꞉> 
-
-Testing shadow-reagent.app-test
-
-
-Ran 1 tests containing 1 assertions.
-
-0 failures, 0 errors.
-
+; ------ REPL Error while processing ---------------------------------------------
+; (ns shadow-reagent.editor
+;   (:require ["@codemirror/fold" :as fold]
+;             ["@codemirror/closebrackets" :refer [closeBrackets]]
+;             ["@codemirror/gutter" :refer [lineNumbers]]
+;             ["@codemirror/highlight" :as highlight]
+;             ["@codemirror/history" :refer [history historyKeymap]]
+;             ["@codemirror/state" :refer [EditorState EditorSelection]]
+;             ["@codemirror/view" :as view :refer [EditorView]]
+;             [clojure-eval.sci :as sci]
+;             [clojure.string :as str]
+;             [applied-science.js-interop :as j]
+;             [nextjournal.clojure-mode :as cm-clj]
+;             [nextjournal.clojure-mode.live-grammar :as live-grammar]))
+; The required JS dependency "@codemirror/fold" is not available, it was required by "shadow_reagent/editor.cljs".
+; 
+; Dependency Trace:
+; 	shadow_reagent/editor.cljs
+; 
+; Searched for npm packages in:
+; 	C:\Users\porko\Documents\GitHub\shadow-reagent\node_modules
+; 
+; See: https://shadow-cljs.github.io/docs/UsersGuide.html#npm-install
+; 
+clj꞉shadow-reagent.editor꞉> 
 nil
-cljs꞉shadow-reagent.app-test꞉> 
+; ------ REPL Error while processing ---------------------------------------------
+; (ns shadow-reagent.editor
+;   (:require ["@codemirror/fold" :as fold]
+;             ["@codemirror/closebrackets" :refer [closeBrackets]]
+;             ["@codemirror/gutter" :refer [lineNumbers]]
+;             ["@codemirror/highlight" :as highlight]
+;             ["@codemirror/history" :refer [history historyKeymap]]
+;             ["@codemirror/state" :refer [EditorState EditorSelection]]
+;             ["@codemirror/view" :as view :refer [EditorView]]
+;             [clojure-eval.sci :as sci]
+;             [clojure.string :as str]
+;             [applied-science.js-interop :as j]
+;             [nextjournal.clojure-mode :as cm-clj]
+;             [nextjournal.clojure-mode.live-grammar :as live-grammar]))
+; The required JS dependency "@codemirror/closebrackets" is not available, it was required by "shadow_reagent/editor.cljs".
+; 
+; Dependency Trace:
+; 	shadow_reagent/editor.cljs
+; 
+; Searched for npm packages in:
+; 	C:\Users\porko\Documents\GitHub\shadow-reagent\node_modules
+; 
+; See: https://shadow-cljs.github.io/docs/UsersGuide.html#npm-install
+; 
+clj꞉shadow-reagent.editor꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns shadow-reagent.editor
+;   (:require ["@codemirror/fold" :as fold]
+;             ["@codemirror/closebrackets" :refer [closeBrackets]]
+;             ["@codemirror/gutter" :refer [lineNumbers]]
+;             ["@codemirror/highlight" :as highlight]
+;             ["@codemirror/history" :refer [history historyKeymap]]
+;             ["@codemirror/state" :refer [EditorState EditorSelection]]
+;             ["@codemirror/view" :as view :refer [EditorView]]
+;             [clojure-eval.sci :as sci]
+;             [clojure.string :as str]
+;             [applied-science.js-interop :as j]
+;             [nextjournal.clojure-mode :as cm-clj]
+;             [nextjournal.clojure-mode.live-grammar :as live-grammar]))
+; The required namespace "clojure-eval.sci" is not available, it was required by "shadow_reagent/editor.cljs".
+; 
+clj꞉shadow-reagent.editor꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns shadow-reagent.editor
+;   (:require ["@codemirror/fold" :as fold]
+;             ["@codemirror/closebrackets" :refer [closeBrackets]]
+;             ["@codemirror/gutter" :refer [lineNumbers]]
+;             ["@codemirror/highlight" :as highlight]
+;             ["@codemirror/history" :refer [history historyKeymap]]
+;             ["@codemirror/state" :refer [EditorState EditorSelection]]
+;             ["@codemirror/view" :as view :refer [EditorView]]
+;             [clojure-eval.sci :as sci]
+;             [clojure.string :as str]
+;             [applied-science.js-interop :as j]
+;             [nextjournal.clojure-mode :as cm-clj]
+;             [nextjournal.clojure-mode.live-grammar :as live-grammar]))
+; The required namespace "nextjournal.clojure-mode" is not available, it was required by "shadow_reagent/editor.cljs".
+; 
+clj꞉shadow-reagent.sci꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns shadow-reagent.editor
+;   (:require ["@codemirror/fold" :as fold]
+;             ["@codemirror/closebrackets" :refer [closeBrackets]]
+;             ["@codemirror/gutter" :refer [lineNumbers]]
+;             ["@codemirror/highlight" :as highlight]
+;             ["@codemirror/history" :refer [history historyKeymap]]
+;             ["@codemirror/state" :refer [EditorState EditorSelection]]
+;             ["@codemirror/view" :as view :refer [EditorView]]
+;             [clojure-eval.sci :as sci]
+;             [clojure.string :as str]
+;             [applied-science.js-interop :as j]
+;             [nextjournal.clojure-mode :as cm-clj]
+;             [nextjournal.clojure-mode.live-grammar :as live-grammar]))
+; The required namespace "nextjournal.clojure-mode.live-grammar" is not available, it was required by "shadow_reagent/editor.cljs".
+; 
+clj꞉shadow-reagent.editor꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns nextjournal.clojure-mode
+;   (:require ["@codemirror/highlight" :as highlight :refer [tags]]
+;             ["@codemirror/state" :refer [EditorState]]
+;             ["@codemirror/language" :as language]
+;             ["@codemirror/view" :as view :refer [EditorView keymap]]
+;             ["lezer" :as lezer]
+;             ["lezer-clojure" :as lezer-clj]
+;             ["lezer-tree" :as lz-tree]
+;             [applied-science.js-interop :as j]
+;             [clojure.string :as str]
+;             [nextjournal.clojure-mode.extensions.close-brackets :as close-brackets]
+;             [nextjournal.clojure-mode.extensions.match-brackets :as match-brackets]
+;             [nextjournal.clojure-mode.extensions.formatting :as format]
+;             [nextjournal.clojure-mode.extensions.selection-history :as sel-history]
+;             [nextjournal.clojure-mode.extensions.eval-region :as eval-region]
+;             [nextjournal.clojure-mode.keymap :as keymap]
+;             [nextjournal.clojure-mode.node :as n]
+;             [nextjournal.clojure-mode.selections :as sel]
+;             [nextjournal.clojure-mode.test-utils :as test-utils]
+;             [nextjournal.clojure-mode.util :as u]))
+; The required JS dependency "lezer" is not available, it was required by "nextjournal/clojure_mode.cljs".
+; 
+; Dependency Trace:
+; 	nextjournal/clojure_mode.cljs
+; 
+; Searched for npm packages in:
+; 	C:\Users\porko\Documents\GitHub\shadow-reagent\node_modules
+; 
+; See: https://shadow-cljs.github.io/docs/UsersGuide.html#npm-install
+; 
+clj꞉nextjournal.clojure-mode꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns nextjournal.clojure-mode
+;   (:require ["@codemirror/highlight" :as highlight :refer [tags]]
+;             ["@codemirror/state" :refer [EditorState]]
+;             ["@codemirror/language" :as language]
+;             ["@codemirror/view" :as view :refer [EditorView keymap]]
+;             ["lezer" :as lezer]
+;             ["lezer-clojure" :as lezer-clj]
+;             ["lezer-tree" :as lz-tree]
+;             [applied-science.js-interop :as j]
+;             [clojure.string :as str]
+;             [nextjournal.clojure-mode.extensions.close-brackets :as close-brackets]
+;             [nextjournal.clojure-mode.extensions.match-brackets :as match-brackets]
+;             [nextjournal.clojure-mode.extensions.formatting :as format]
+;             [nextjournal.clojure-mode.extensions.selection-history :as sel-history]
+;             [nextjournal.clojure-mode.extensions.eval-region :as eval-region]
+;             [nextjournal.clojure-mode.keymap :as keymap]
+;             [nextjournal.clojure-mode.node :as n]
+;             [nextjournal.clojure-mode.selections :as sel]
+;             [nextjournal.clojure-mode.test-utils :as test-utils]
+;             [nextjournal.clojure-mode.util :as u]))
+; The required JS dependency "lezer-clojure" is not available, it was required by "nextjournal/clojure_mode.cljs".
+; 
+; Dependency Trace:
+; 	nextjournal/clojure_mode.cljs
+; 
+; Searched for npm packages in:
+; 	C:\Users\porko\Documents\GitHub\shadow-reagent\node_modules
+; 
+; See: https://shadow-cljs.github.io/docs/UsersGuide.html#npm-install
+; 
+clj꞉nextjournal.clojure-mode꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns nextjournal.clojure-mode
+;   (:require ["@codemirror/highlight" :as highlight :refer [tags]]
+;             ["@codemirror/state" :refer [EditorState]]
+;             ["@codemirror/language" :as language]
+;             ["@codemirror/view" :as view :refer [EditorView keymap]]
+;             ["lezer" :as lezer]
+;             ["lezer-clojure" :as lezer-clj]
+;             ["lezer-tree" :as lz-tree]
+;             [applied-science.js-interop :as j]
+;             [clojure.string :as str]
+;             [nextjournal.clojure-mode.extensions.close-brackets :as close-brackets]
+;             [nextjournal.clojure-mode.extensions.match-brackets :as match-brackets]
+;             [nextjournal.clojure-mode.extensions.formatting :as format]
+;             [nextjournal.clojure-mode.extensions.selection-history :as sel-history]
+;             [nextjournal.clojure-mode.extensions.eval-region :as eval-region]
+;             [nextjournal.clojure-mode.keymap :as keymap]
+;             [nextjournal.clojure-mode.node :as n]
+;             [nextjournal.clojure-mode.selections :as sel]
+;             [nextjournal.clojure-mode.test-utils :as test-utils]
+;             [nextjournal.clojure-mode.util :as u]))
+; The required namespace "nextjournal.clojure-mode.extensions.close-brackets" is not available, it was required by "nextjournal/clojure_mode.cljs".
+; 
+clj꞉nextjournal.clojure-mode꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns nextjournal.clojure-mode.extensions.close-brackets
+;   (:require ["w3c-keyname" :refer [keyName]]
+;             ["@codemirror/view" :as view]
+;             ["@codemirror/state" :refer [EditorState
+;                                          EditorSelection
+;                                          Transaction
+;                                          CharCategory
+;                                          Extension]]
+;             ["@codemirror/text" :as text :refer [Text]]
+;             [applied-science.js-interop :as j]
+;             [nextjournal.clojure-mode.selections :as sel]
+;             [nextjournal.clojure-mode.node :as n]
+;             [nextjournal.clojure-mode.chars :as chars]
+;             [nextjournal.clojure-mode.util :as u :refer [from-to]]
+;             [nextjournal.clojure-mode.test-utils :as test-utils]
+;             [nextjournal.clojure-mode.commands :as commands]
+;             [clojure.string :as str]))
+; The required namespace "nextjournal.clojure-mode.selections" is not available, it was required by "nextjournal/clojure_mode/extensions/close_brackets.cljs".
+; 
+clj꞉nextjournal.clojure-mode.extensions.close-brackets꞉> 
+nil
+clj꞉nextjournal.clojure-mode.selections꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns nextjournal.clojure-mode.extensions.close-brackets
+;   (:require ["w3c-keyname" :refer [keyName]]
+;             ["@codemirror/view" :as view]
+;             ["@codemirror/state" :refer [EditorState
+;                                          EditorSelection
+;                                          Transaction
+;                                          CharCategory
+;                                          Extension]]
+;             ["@codemirror/text" :as text :refer [Text]]
+;             [applied-science.js-interop :as j]
+;             [nextjournal.clojure-mode.selections :as sel]
+;             [nextjournal.clojure-mode.node :as n]
+;             [nextjournal.clojure-mode.chars :as chars]
+;             [nextjournal.clojure-mode.util :as u :refer [from-to]]
+;             [nextjournal.clojure-mode.test-utils :as test-utils]
+;             [nextjournal.clojure-mode.commands :as commands]
+;             [clojure.string :as str]))
+; The required namespace "nextjournal.clojure-mode.node" is not available, it was required by "nextjournal/clojure_mode/extensions/close_brackets.cljs".
+; 
+clj꞉nextjournal.clojure-mode.extensions.close-brackets꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (ns nextjournal.clojure-mode.node
+;   (:refer-clojure :exclude [coll? ancestors string? empty? regexp? name range resolve type])
+;   (:require ["lezer-tree" :as lz-tree]
+;             ["lezer" :as lezer]
+;             ["lezer-clojure" :as lezer-clj]
+;             ["@codemirror/language" :as language]
+;             [clojure.core :as core]
+;             [applied-science.js-interop :as j]
+;             [nextjournal.clojure-mode.util :as u]
+;             [nextjournal.clojure-mode.selections :as sel]))
+; The required namespace "nextjournal.clojure-mode.util" is not available, it was required by "nextjournal/clojure_mode/node.cljs".
+; 
+clj꞉nextjournal.clojure-mode.node꞉> 
+nil
+clj꞉nextjournal.clojure-mode.util꞉> 
+:repl/exception!
+; 
+; Execution error (RangeError) at (<cljs repl>:1).
+; Parser version (14) doesn't match runtime version (13)
+clj꞉nextjournal.clojure-mode.node꞉> 
